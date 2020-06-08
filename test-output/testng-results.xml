@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5205" started-at="2020-06-08T13:51:06 BST" finished-at="2020-06-08T13:51:12 BST">
+  <suite name="Default suite" duration-ms="13405" started-at="2020-06-08T19:25:47 BST" finished-at="2020-06-08T19:26:00 BST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5205" started-at="2020-06-08T13:51:06 BST" finished-at="2020-06-08T13:51:12 BST">
-      <class name="ScreenshotCompare.Test_CompareScreenshot">
-        <test-method status="PASS" signature="setup()[pri:0, instance:ScreenshotCompare.Test_CompareScreenshot@32709393]" name="setup" is-config="true" duration-ms="2302" started-at="2020-06-08T13:51:06 BST" finished-at="2020-06-08T13:51:09 BST">
+    <test name="Default test" duration-ms="13405" started-at="2020-06-08T19:25:47 BST" finished-at="2020-06-08T19:26:00 BST">
+      <class name="com.ScreenshotCompare.Test_CompareScreenshot2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ScreenshotCompare.Test_CompareScreenshot2@22a67b4]" name="setup" is-config="true" duration-ms="2451" started-at="2020-06-08T19:25:47 BST" finished-at="2020-06-08T19:25:49 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="CompareScreenshots()[pri:0, instance:ScreenshotCompare.Test_CompareScreenshot@32709393]" name="CompareScreenshots" duration-ms="2724" started-at="2020-06-08T13:51:09 BST" finished-at="2020-06-08T13:51:11 BST">
+        <test-method status="PASS" signature="CompareScreenshots()[pri:0, instance:com.ScreenshotCompare.Test_CompareScreenshot2@22a67b4]" name="CompareScreenshots" duration-ms="10708" started-at="2020-06-08T19:25:49 BST" finished-at="2020-06-08T19:26:00 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompareScreenshots -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:ScreenshotCompare.Test_CompareScreenshot@32709393]" name="teardown" is-config="true" duration-ms="115" started-at="2020-06-08T13:51:11 BST" finished-at="2020-06-08T13:51:12 BST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ScreenshotCompare.Test_CompareScreenshot2@22a67b4]" name="teardown" is-config="true" duration-ms="189" started-at="2020-06-08T19:26:00 BST" finished-at="2020-06-08T19:26:00 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- ScreenshotCompare.Test_CompareScreenshot -->
+      </class> <!-- com.ScreenshotCompare.Test_CompareScreenshot2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

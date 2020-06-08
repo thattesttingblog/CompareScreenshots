@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ScreenshotCompare.Test_CompareScreenshot">
+      <class name="com.ScreenshotCompare.Test_TakeScreenshots2">
         <methods>
-          <include name="Takescreenshots"/>
-          <include name="setup"/>
+          <include name="TakeScreenshots"/>
           <include name="teardown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- ScreenshotCompare.Test_CompareScreenshot -->
+      </class> <!-- com.ScreenshotCompare.Test_TakeScreenshots2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

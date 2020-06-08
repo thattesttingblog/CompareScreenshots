@@ -40,7 +40,7 @@ public class Test_TakeScreenshots {
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		
 		//WebElement logoImage = driver.findElement(By.xpath("//div[@id='divLogo']//img"));
-		WebElement logoImage = driver.findElement(By.xpath("//div[@id='content']"));
+		WebElement logoImage = driver.findElement(By.xpath(""));
 		
 		
 		Screenshot screenshot = new AShot().takeScreenshot(driver,logoImage);
