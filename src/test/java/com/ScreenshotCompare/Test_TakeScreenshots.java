@@ -1,4 +1,4 @@
-package ScreenshotCompare;
+package com.ScreenshotCompare;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package ScreenshotCompare;
+package com.ScreenshotCompare;
 
 import java.awt.image.BufferedImage;
 import java.io.File;
