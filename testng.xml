@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+ </listeners>
+  
+  <test name="Retail Link- Add_walmart">
+    <classes>
+      <class name="com.walmart.prr.Test_Submit_Recall_walmart"/> 
+      <class name="com.walmart.prr.Test_RecallApproval_walmart"/>
+    </classes>
+  </test> 
+ 
+    
+   <test name="Logistics- Recall Flow Test">
+    <classes>
+      <class name="com.walmart.Logistics.Test_HO_SubmitRecall"/> 
+      <class name="com.walmart.Logistics.Test_DC_SubmitRecall"/>
+    </classes>
+    </test>  
+    
+
+</suite> <!-- Suite -->
