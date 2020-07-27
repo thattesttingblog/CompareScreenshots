@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13405" started-at="2020-06-08T19:25:47 BST" finished-at="2020-06-08T19:26:00 BST">
+  <suite name="Test Sample Suite" duration-ms="22820" started-at="2020-07-27T10:08:09 BST" finished-at="2020-07-27T10:08:31 BST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13405" started-at="2020-06-08T19:25:47 BST" finished-at="2020-06-08T19:26:00 BST">
-      <class name="com.ScreenshotCompare.Test_CompareScreenshot2">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ScreenshotCompare.Test_CompareScreenshot2@22a67b4]" name="setup" is-config="true" duration-ms="2451" started-at="2020-06-08T19:25:47 BST" finished-at="2020-06-08T19:25:49 BST">
+    <test name="Run All" duration-ms="22820" started-at="2020-07-27T10:08:09 BST" finished-at="2020-07-27T10:08:31 BST">
+      <class name="com.ScreenshotCompare_Multiple.Test_TakeScreenshots2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ScreenshotCompare_Multiple.Test_TakeScreenshots2@57855c9a]" name="setup" is-config="true" duration-ms="2876" started-at="2020-07-27T10:08:09 BST" finished-at="2020-07-27T10:08:11 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="CompareScreenshots()[pri:0, instance:com.ScreenshotCompare.Test_CompareScreenshot2@22a67b4]" name="CompareScreenshots" duration-ms="10708" started-at="2020-06-08T19:25:49 BST" finished-at="2020-06-08T19:26:00 BST">
+        <test-method status="PASS" signature="TakeScreenshots()[pri:0, instance:com.ScreenshotCompare_Multiple.Test_TakeScreenshots2@57855c9a]" name="TakeScreenshots" duration-ms="9623" started-at="2020-07-27T10:08:11 BST" finished-at="2020-07-27T10:08:21 BST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CompareScreenshots -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ScreenshotCompare.Test_CompareScreenshot2@22a67b4]" name="teardown" is-config="true" duration-ms="189" started-at="2020-06-08T19:26:00 BST" finished-at="2020-06-08T19:26:00 BST">
+        </test-method> <!-- TakeScreenshots -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ScreenshotCompare_Multiple.Test_TakeScreenshots2@57855c9a]" name="teardown" is-config="true" duration-ms="186" started-at="2020-07-27T10:08:21 BST" finished-at="2020-07-27T10:08:21 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.ScreenshotCompare.Test_CompareScreenshot2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.ScreenshotCompare_Multiple.Test_TakeScreenshots2 -->
+      <class name="com.ScreenshotCompare_Multiple.Test_CompareScreenshot2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ScreenshotCompare_Multiple.Test_CompareScreenshot2@3b084709]" name="setup" is-config="true" duration-ms="1509" started-at="2020-07-27T10:08:21 BST" finished-at="2020-07-27T10:08:23 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CompareScreenshots()[pri:0, instance:com.ScreenshotCompare_Multiple.Test_CompareScreenshot2@3b084709]" name="CompareScreenshots" duration-ms="8439" started-at="2020-07-27T10:08:23 BST" finished-at="2020-07-27T10:08:31 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompareScreenshots -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ScreenshotCompare_Multiple.Test_CompareScreenshot2@3b084709]" name="teardown" is-config="true" duration-ms="136" started-at="2020-07-27T10:08:31 BST" finished-at="2020-07-27T10:08:31 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ScreenshotCompare_Multiple.Test_CompareScreenshot2 -->
+    </test> <!-- Run All -->
+  </suite> <!-- Test Sample Suite -->
 </testng-results>

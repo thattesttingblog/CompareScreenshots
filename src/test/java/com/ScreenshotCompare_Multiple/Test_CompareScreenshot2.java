@@ -52,7 +52,7 @@ WebDriver driver;
 			driver.findElement(By.xpath("//input[@id='txtPassword']")).sendKeys("admin123");
 			driver.findElement(By.xpath("//input[@id='btnLogin']")).click();
 			
-			for (int i=1;i<=4;i++) {
+			for (int i=1;i<=5;i++) {
 				
 				int row = i;
 				int col = 0;
